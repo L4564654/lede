@@ -16,7 +16,8 @@ on:
     
 permissions:
   contents: read
- 
+  watch:
+    types: started 
 
 jobs:
 
@@ -111,5 +112,3 @@ jobs:
           file_glob: true
 
 
-  watch:
-    types: started
