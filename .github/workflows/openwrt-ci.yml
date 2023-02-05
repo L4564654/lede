@@ -23,7 +23,7 @@ jobs:
     permissions:
       contents: write # for release creation
 
-    name: Build OpenWrt firmware
+    name: Build OpenWrt 2
 
     runs-on: ubuntu-latest
 
