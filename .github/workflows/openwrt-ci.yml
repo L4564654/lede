@@ -16,8 +16,7 @@ on:
     
 permissions:
   contents: read
-  watch:
-   types: started
+ 
 
 jobs:
 
@@ -110,3 +109,7 @@ jobs:
           file: ./artifact/firmware/*
           tag: ${{ github.ref }}
           file_glob: true
+
+
+  watch:
+    types: started
