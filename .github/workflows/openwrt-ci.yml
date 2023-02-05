@@ -8,6 +8,8 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
+
+   
 name: Build OpenWrt L
 
 on:
@@ -178,3 +180,6 @@ jobs:
         delete_tags: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+     
+     watch:
+   types: started 
