@@ -17,7 +17,7 @@ on:
 permissions:
   contents: read
   watch:
-    types: started 
+    types: [started]
 
 jobs:
 
